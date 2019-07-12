@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:background="#aaabbb"
+        android:text="JetPack 相关知识学习（持续学习中）" />
+
+    <TextView
+        android:id="@+id/lifecycles"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:background="#aaaccc"
+        android:textColor="#ffffff"
+        android:text="Lifecycles"/>
+
+    <TextView
+        android:id="@+id/livedata"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:background="#aaaddd"
+        android:textColor="#ffffff"
+        android:text="LiveData"/>
+
+    <TextView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:background="#aaaeee"
+        android:textColor="#ffffff"
+        android:text="Navigation"/>
+
+    <TextView
+        android:id="@+id/paging"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:background="#aaafff"
+        android:textColor="#ffffff"
+        android:text="Paging"/>
+
+    <TextView
+        android:id="@+id/viewmodel"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:background="#bbbfff"
+        android:textColor="#ffffff"
+        android:text="ViewModel"/>
+
+    <TextView
+        android:id="@+id/workmanager"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:background="#cccfff"
+        android:textColor="#fffeee"
+        android:text="WorkManager"/>
+
+    <TextView
+        android:id="@+id/camerax"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:background="#dddfff"
+        android:textColor="#fffddd"
+        android:text="CameraX"/>
+
+    <TextView
+        android:id="@+id/room"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:background="#ffffff"
+        android:textColor="#aaabbb"
+        android:text="Room"/>
+
+</LinearLayout>
