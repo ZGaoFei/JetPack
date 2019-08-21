@@ -6,6 +6,9 @@ import android.content.Context;
 import android.os.Bundle;
 
 import com.example.jetpack.lifecycles.LifecyclesActivity;
+import com.example.jetpack.livedata.one_createlivedata.CreateLiveDataActivity;
+import com.example.jetpack.livedata.two_extendslivedata.ExtendsLiveDataActivity;
+import com.example.jetpack.viewmodel.ViewModelActivity;
 
 public class MainActivity extends AppCompatActivity {
     private Context context;
@@ -21,14 +24,19 @@ public class MainActivity extends AppCompatActivity {
                 LifecyclesActivity.start(context)
         );
 
-        findViewById(R.id.livedata).setOnClickListener((view) -> {
-
+        findViewById(R.id.livedata_create).setOnClickListener((view) -> {
+            CreateLiveDataActivity.start(context);
         });
+        findViewById(R.id.livedata_extends).setOnClickListener((view) -> {
+            ExtendsLiveDataActivity.start(context);
+        });
+
         findViewById(R.id.navigation).setOnClickListener((view) -> {
         });
         findViewById(R.id.paging).setOnClickListener((view) -> {
         });
         findViewById(R.id.viewmodel).setOnClickListener((view) -> {
+            ViewModelActivity.start(context);
         });
         findViewById(R.id.workmanager).setOnClickListener((view) -> {
         });

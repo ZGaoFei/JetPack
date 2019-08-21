@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".viewmodel.test.TestViewModelFragment">
+
+    <Button
+        android:id="@+id/bt_get_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get user data" />
+
+    <Button
+        android:id="@+id/bt_get_other_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get other user data" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="name" />
+
+    <TextView
+        android:id="@+id/tv_sex"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="sex" />
+
+    <TextView
+        android:id="@+id/tv_age"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="age" />
+
+</LinearLayout>
