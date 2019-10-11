@@ -13,7 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".viewmodel.ViewModelActivity"></activity>
+        <activity android:name=".workmanager.WorkManagerActivity"></activity>
+        <activity android:name=".navigation.NavigationActivity" />
+        <activity android:name=".viewmodel.ViewModelActivity" />
         <activity android:name=".livedata.two_extendslivedata.ExtendsLiveDataActivity" />
         <activity android:name=".livedata.one_createlivedata.CreateLiveDataActivity" />
         <activity android:name=".lifecycles.mvp.TestActivity" />

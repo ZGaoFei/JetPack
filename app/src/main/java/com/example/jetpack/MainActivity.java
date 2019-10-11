@@ -9,6 +9,7 @@ import com.example.jetpack.lifecycles.LifecyclesActivity;
 import com.example.jetpack.livedata.one_createlivedata.CreateLiveDataActivity;
 import com.example.jetpack.livedata.two_extendslivedata.ExtendsLiveDataActivity;
 import com.example.jetpack.viewmodel.ViewModelActivity;
+import com.example.jetpack.workmanager.WorkManagerActivity;
 
 public class MainActivity extends AppCompatActivity {
     private Context context;
@@ -39,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
             ViewModelActivity.start(context);
         });
         findViewById(R.id.workmanager).setOnClickListener((view) -> {
+            WorkManagerActivity.start(context);
         });
         findViewById(R.id.camerax).setOnClickListener((view) -> {
         });
