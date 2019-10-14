@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.jetpack">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
@@ -13,7 +15,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".workmanager.WorkManagerActivity"></activity>
+        <activity android:name=".downloadmanager.DownloadActivity"></activity>
+        <activity android:name=".workmanager.WorkManagerActivity" />
         <activity android:name=".navigation.NavigationActivity" />
         <activity android:name=".viewmodel.ViewModelActivity" />
         <activity android:name=".livedata.two_extendslivedata.ExtendsLiveDataActivity" />

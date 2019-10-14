@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
 import android.os.Bundle;
 
+import com.example.jetpack.downloadmanager.DownloadActivity;
 import com.example.jetpack.lifecycles.LifecyclesActivity;
 import com.example.jetpack.livedata.one_createlivedata.CreateLiveDataActivity;
 import com.example.jetpack.livedata.two_extendslivedata.ExtendsLiveDataActivity;
@@ -36,15 +37,21 @@ public class MainActivity extends AppCompatActivity {
         });
         findViewById(R.id.paging).setOnClickListener((view) -> {
         });
+
         findViewById(R.id.viewmodel).setOnClickListener((view) -> {
             ViewModelActivity.start(context);
         });
         findViewById(R.id.workmanager).setOnClickListener((view) -> {
             WorkManagerActivity.start(context);
         });
+
         findViewById(R.id.camerax).setOnClickListener((view) -> {
         });
         findViewById(R.id.room).setOnClickListener((view) -> {
+        });
+
+        findViewById(R.id.download).setOnClickListener((view) -> {
+            DownloadActivity.start(context);
         });
     }
 }
